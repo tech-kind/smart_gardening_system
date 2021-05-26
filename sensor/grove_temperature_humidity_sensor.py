@@ -9,6 +9,7 @@ GPIO.setwarnings(False)
 
 PULSES_CNT = 41
 
+
 class DHT(object):
     DHT_TYPE = {
         'DHT11': '11',

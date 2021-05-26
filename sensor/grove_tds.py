@@ -3,6 +3,7 @@ import sys
 import time
 from grove.adc import ADC
 
+
 class GroveTDS:
 
     def __init__(self, channel):
