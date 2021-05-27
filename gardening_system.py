@@ -24,7 +24,10 @@ def get_sensor_info():
         "d2": humi,
         "d3": round(tds_sensor.TDS, 2)
     }
-    am.send(data)
+    try:
+        am.send(data, timeout=10.0)
+    except requests.exceptions.RequestException:
+        pass
 
 
 def main():
