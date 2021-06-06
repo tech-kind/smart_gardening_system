@@ -43,7 +43,6 @@ $ python3 gardening_system.py
 * tech-kind
  
 # License
-ライセンスを明示する
  
 "smart_gardening_system" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License), see LICENSE.
  
