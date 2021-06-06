@@ -33,9 +33,9 @@ $ sudo pip install git+https://github.com/AmbientDataInc/ambient-python-lib.git
 # Usage
  
 ```bash
-git clone https://github.com/tech-kind/smart_gardening_system.git
-cd smart_gardening_system
-python3 gardening_system.py
+$ git clone https://github.com/tech-kind/smart_gardening_system.git
+$ cd smart_gardening_system
+$ python3 gardening_system.py
 ```
  
 # Author
